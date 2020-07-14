@@ -200,7 +200,7 @@ class App extends Vue {
     }
     created(){
         // eslint-disable-next-line 
-        console.log("Produced by MoewSound Idols");
+        console.log("Produced by Voice Button United Studio");
         this.$i18n.locale = localStorage.getItem("lang") || this.$i18n.locale;
     }
     chlang(v){

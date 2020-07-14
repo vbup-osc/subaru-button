@@ -18,7 +18,7 @@ Mio Button [http://ookamimio.org](https://ookamimio.org)
 
 素材建议/リソース提案者/Resource proposal：狐霞桑 & ミミック_ギミック & 一只咸鱼p & 银鸦- & Genso & 澪家狐萝卜 & 伪面Joker & 究极救世内海 & 大神暗 & 寒いもみじ雪
 
-This project is supported by MeowSound Idols.
+This project is supported by Voice Button United Studio.
 
 This project was greatly helped by [Lonely_ion](https://github.com/lonelyion) , [jetri.co](https://twitter.com/dragonjetmkii?s=09) , [Ziang Guo](https://twitter.com/ziang_guo?s=09)
 
