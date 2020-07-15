@@ -25,9 +25,9 @@ jobs:
       run: |
         git config --global user.email "samuimomijiyuki@qq.com"
         git config --global user.name "MioButton"
-        git remote set-url origin https://github.com/MioButton/MioButtonDepot.git
+        git remote set-url origin https://github.com/VoiceButtonUnitedProject/SubaruButtonDepot.git
         git init
         git add --all
         git commit -m "Deploy from GitHub: $GITHUB_SHA"
-        git push -u --force https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@github.com/MioButton/MioButtonDepot.git master:master
+        git push -u --force https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@github.com/VoiceButtonUnitedProject/SubaruButtonDepot.git master:master
     
