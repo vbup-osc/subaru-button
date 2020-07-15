@@ -1,4 +1,4 @@
-name: MIO-BTN-CI/CD
+name: SUBARU-BTN-CI/CD
 
 on: 
   push:
