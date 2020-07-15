@@ -1,10 +1,10 @@
 const ja_JP = {
     info: {
-        title: "ミオボタン",
+        title: "スバルボタン",
         info: "通知",
         null: "空",
         subscriber: "現在までのチャンネル登録者人数:",
-        author: "ミオボタンチーム 2020",
+        author: "スバルボタンチーム × 大空スバルの蕎麦麺館 2020",
         audioStaff: "感謝リストとウェブサイト情報",
         toGithub: "Githubに関する貴重なフィードバックを提供してください",
         notOfficial: "このサイトはファンの作品であり、公式とは関係ありません。アップロードした音声ファイルがあなたの権利を侵害している場合は、すぐに削除するように私たちに通知してください:samuimomijiyuki@qq.com",
@@ -34,7 +34,6 @@ const ja_JP = {
     lang: {
         'zh-CN': "简体中文",
         'ja-JP': "日本語",
-        'en-US': "English"
     }
 }
 export default ja_JP;

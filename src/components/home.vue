@@ -14,7 +14,7 @@
             </div>
             <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:40px;height:auto;margin-left:5px;margin-bottom: 3px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
-                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" v-if="item.ytChannelId === 'UCp-5t9SrOQwXMU7iIjQfARg'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
+                    <div v-for="(item) in youtubeData.vtubers" :key="item.ytChannelId"><button class="btn btn-ctrldft" v-if="item.ytChannelId === 'UCvzGlP9oQwU--Y0r9id_jnA'">{{$t('info.subscriber')}}{{item.subscriberCount}}</button></div>
                     <div v-for="live in live_data" :key="live.live_schedule">
                         <div v-if="live.title.length">
                             <span v-if="live.status === 'upcoming'" style="font-size:17px;">{{$t("action.plan")}}{{new Date(live.live_schedule).toLocaleString()}}</span>
@@ -37,7 +37,6 @@
                 <div class="cate-ctrldft">{{$t("action.adtitle")}}
                     <button class="btn btn-ctrldft" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
                     <button class="btn btn-ctrldft" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
-                    <button class="btn btn-ctrldft" onclick="window.open('https://sticker.ookamimio.org')">{{$t("action.sticker")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
                 <div class="cate-header">{{ $t("voicecategory." + category.categoryName) }} 
@@ -270,7 +269,7 @@ class HomePage extends Vue {
         .then(response => { 
             let fetched = response.data;
             let mio_lives = [];
-            const channel_id = 'UCp-5t9SrOQwXMU7iIjQfARg';
+            const channel_id = 'UCvzGlP9oQwU--Y0r9id_jnA';
             fetched.live.forEach(function(item){
                 if (item.channel.yt_channel_id === channel_id){
                     item.status = 'live';
@@ -286,12 +285,6 @@ class HomePage extends Vue {
             this.live_data = mio_lives;
             this.live_data_loading = false;
         })
-    }
-    format_time(){
-        var ts = arguments[0] || 0;
-        var t,y,m,d,h,i,s;
-        t = ts ? new Date(ts*1000) : new Date();y = t.getFullYear();m = t.getMonth()+1;d = t.getDate();h = t.getHours();i = t.getMinutes();s = t.getSeconds();
-        return y+'-'+(m<10?'0'+m:m)+'-'+(d<10?'0'+d:d)+' '+(h<10?'0'+h:h)+':'+(i<10?'0'+i:i)+':'+(s<10?'0'+s:s);
     }
     play(item){
         if (this.overlapCheck) {
