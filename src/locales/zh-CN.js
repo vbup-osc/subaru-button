@@ -2,7 +2,7 @@ const zh_CN = {
     info: {
         title: "昴按钮",
         info: "信息",
-        author: "昴按钮团队 × 大空家的荞麦面馆 2020",
+        author: "按钮联合工作室 × 大空家的荞麦面馆 2020",
         null: "空",
         subscriber: "当前Youtube订阅数为：",
         audioStaff: "鸣谢名单以及网站相关",

@@ -134,7 +134,7 @@
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.397);
 }
 .cate-header{/*分类标题*/
-    background-image: linear-gradient(to bottom right,rgb(78, 78, 78),rgb(58, 58, 58)) ;
+    background-image: linear-gradient(to bottom right,#70e4d0,#53d1e0) ;
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
     border-radius: 30px;
     text-align: left;
@@ -167,7 +167,7 @@
     font-weight: 600;
 }
 .cate-ctrldft{/*控制中心分类标题*/
-    background-image: linear-gradient(to bottom right,rgb(255, 153, 153),rgb(255, 125, 125));
+    background-image: linear-gradient(to bottom right,#edf19d,#e8ec74);
     border-radius: 30px;
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
@@ -201,7 +201,7 @@
 }
 .btn-new {
     color: #fff;
-    background-image: linear-gradient(to bottom right,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
+    background-image: linear-gradient(to bottom right,#eb5a2b,#ed4818);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
     border: 0px;
