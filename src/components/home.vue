@@ -110,10 +110,11 @@
     background-color:#ff7b7be5
 }
 .btn-ctrldft{/*今日随机按钮*/
-    background-image: linear-gradient(to bottom right,rgb(255, 184, 184),rgb(255, 156, 156)) ;
+    background-image: linear-gradient(to bottom right,#70e4d0,#53d1e0) ;
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     padding-top: 3px;
+    color: #ffffff;
     box-shadow: 0 8px 16px 0px rgba(184, 88, 88, 0.26);
     text-align: center;
     font-weight: 600;
@@ -172,7 +173,7 @@
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
-    color: #fff;
+    color: #ff5825;
     transition-property: all;
     transition-duration: 300ms;
     font-size: 20px;
@@ -201,7 +202,7 @@
 }
 .btn-new {
     color: #fff;
-    background-image: linear-gradient(to bottom right,#eb5a2b,#ed4818);
+    background-image: linear-gradient(to bottom right,#eb5d32,#ec4d1d);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
     border: 0px;
@@ -322,7 +323,7 @@ class HomePage extends Vue {
         if(this.$i18n.locale === 'ja-JP'){
             window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「ミオボタン」のWebサイトにアクセスしてください~ https://t.co/TLdj8E9Rct");
         }else if(this.$i18n.locale === 'en-US'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい Today，"+res+"'s random audio is "+title+"！ Visit Mio Button Website For More Audio! https://t.co/TLdj8E9Rct");
+            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい Today，"+res+"'s random audio is %22"+title+"%22！ Visit Mio Button Website For More Audio! https://t.co/TLdj8E9Rct");
         }else {
             window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问狼按钮网站聆听更多音频 https://t.co/TLdj8E9Rct");
         }
