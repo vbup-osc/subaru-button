@@ -44,9 +44,9 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #eeeeee;text-decoration: none">Colorful Subaru 0.0.1</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #9da129;text-decoration: none">Colorful Subaru 0.0.1</a></button>
                 <div class="pull-left">
-                    <div class="text-left" style="color: rgba(255, 166, 102);">{{$t("info.author")}}</div>
+                    <div class="text-left" style="color: #ec6840;">{{$t("info.author")}}</div>
                     <div class="text-left">{{$t("info.notOfficial")}}</div>
                     <div class="text-left"><a href="https://voicebuttonunitedproject.github.io/SubaruButton/" target="_blank">{{$t("info.audioStaff")}}</a></div>
                     <div class="text-left"><a href="https://github.com/VoiceButtonUnitedProject/SubaruButton" target="_blank">{{$t("info.toGithub")}}</a></div>
@@ -60,33 +60,33 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 .main-content{ /*内容部分*/
     min-height: 100vh;
-    background-color: #FFF6ED;
+    background-color: #f0e3d6;
 }
 .btn-buttom{
     border: 0px;
     padding: 1px 10px;
 }
 .btn-buttom-info {
-    color: #fff;
+    color: #9da129;
     font-size: 12px;
-    background-color: rgb(0, 214, 0);
+    background-color: #e8ec74;
     border-radius: 5px;
 }
 .btn-buttom-info:hover {
-    color: #fff;
+    color: #9da129;
     font-size: 12px;
-    background-color: rgb(4, 163, 4);
+    background-color: #c9cc65;
     border-radius: 5px;
 }
 .btn-buttom-info:focus {
-    color: #fff;
+    color: #9da129;
     font-size: 12px;
-    background-color: rgb(4, 163, 4);
+    background-color: #c9cc65;
     border-radius: 5px;
 }
 .navbar{ 
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.151);
-    background-color: rgba(34, 34, 34, 0.5);/*顶栏部分*/
+    background-color: #d1c6bb;/*顶栏部分*/
     margin: 15px;
 }
 .navbar-fixed-top{ 
@@ -116,7 +116,7 @@
     color: #999999;/*右侧语言状态显示文字颜色*/
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-    background-color: rgba(0,0,0,0.3); /*语言栏背景颜色*/
+    background-color: #b8aea4;; /*语言栏背景颜色*/
     color: #999999; /*语言栏显示字体*/
 }
 .dropdown-menu > li > a{
@@ -142,7 +142,7 @@
 .dropdown-menu{
     border-radius: 18px;
     border-top-right-radius: 18px;
-    background-color: rgba(0,0,0,0.3); /*语言栏背景颜色（长）*/
+    background-color: #b8aea4; /*语言栏背景颜色（长）*/
     margin-top: 3px;
 }
 .navbar-nav > li > .dropdown-menu {
@@ -169,12 +169,12 @@
     width: 100%;
     height: 100%;
     min-height: 60px;
-    background-color: #222222;
+    background-color: #d1c6bb;
 }
 .footer-content {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #c2c2c2;
+    color: #9c938b;
     font-weight:600;
 }
 .text-right{

@@ -12,7 +12,7 @@
                 <button id="small" class="btn btn-control" style="right:168px;bottom:15px;padding:5.5px;" :class="{ 'disabled': autoCheck }" @click="overlap" :title="$t('info.overlapTips')"><input class="checkbox" type="checkbox" v-model="overlapCheck"><img src="/resources/over.svg" style="width: 25px;"></button>
                 <button id="small" class="btn btn-control" style="right:226px;bottom:15px;" :class="{ 'disabled': overlapCheck }" @click="autoPlay"><input class="checkbox" type="checkbox" v-model="autoCheck"><img src="/resources/auto.svg" style="width: 30px;"></button>
             </div>
-            <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:40px;height:auto;margin-left:5px;margin-bottom: 3px;"></div>
+            <div class="title">{{$t("info.title")}}<img src="/resources/bg.png" style="width:45px;height:auto;margin-left:5px;margin-bottom: 9px;"></div>
                 <div class="cate-ctrldft">{{$t("action.live")}}
                     <div v-for="(item) in youtubeData.channels" :key="item.yt_channel_id"><button class="btn btn-ctrldft" v-if="item.yt_channel_id === 'UCvzGlP9oQwU--Y0r9id_jnA'">{{$t('info.subscriber')}}{{item.subscriber_count}}</button></div>
                     <div v-for="live in live_data" :key="live.live_schedule">
@@ -52,12 +52,13 @@
 <style lang="scss" scoped>
 .title{
     text-align: left;
+    -webkit-text-stroke:2px rgb(255, 155, 97);
     margin-top: 75px;
     border-radius: 30px;
     font-weight: 900;
     text-align: left;
-    color: #fff;    
-    text-shadow:rgba(0, 0, 0, 0.308) 5px 6px 10px;
+    color: rgb(255, 226, 61);    
+    text-shadow:rgba(0, 0, 0, 0.308) 3px 3px 10px;
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -69,7 +70,7 @@
 .btn-control-main{
     position: fixed;
     z-index: 2;
-    background-color: #ff7b7bc2;/*背景颜色*/
+    background-color: #f07d5b;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -90,7 +91,7 @@
 .btn-control{
     z-index: 1;
     position: fixed;
-    background-color: #ff7b7bc2;/*背景颜色*/
+    background-color: #f07d5b;/*背景颜色*/
     border: 0px; /*边框去除*/
     border-radius: 17px;/*边框圆角*/
     max-width: 100%;
@@ -173,7 +174,7 @@
     text-align: left;
     text-shadow: rgba(184, 88, 88, 0.281) 5px 6px 10px;
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.151);
-    color: #ff5825;
+    color: #9da129;
     transition-property: all;
     transition-duration: 300ms;
     font-size: 20px;
@@ -202,7 +203,7 @@
 }
 .btn-new {
     color: #fff;
-    background-image: linear-gradient(to bottom right,#eb5d32,#ec4d1d);
+    background-image: linear-gradient(to bottom right,#f07d5b,#ec6840);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
     border: 0px;
