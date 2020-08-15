@@ -44,7 +44,7 @@
         </div>
         <footer class="footer">
             <div class="container-fluid footer-content">
-                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #9da129;text-decoration: none">Colorful Subaru 0.0.1</a></button>
+                <button class="btn-buttom btn-buttom-info"><a href="javascript:location.reload();" style="color: #9da129;text-decoration: none">Subaru 0.0.1</a></button>
                 <div class="pull-left">
                     <div class="text-left" style="color: #ec6840;">{{$t("info.author")}}</div>
                     <div class="text-left">{{$t("info.notOfficial")}}</div>
@@ -86,7 +86,7 @@
 }
 .navbar{ 
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.151);
-    background-color: #d1c6bb;/*顶栏部分*/
+    background-color: #d1c6bbe5;/*顶栏部分*/
     margin: 15px;
 }
 .navbar-fixed-top{ 
