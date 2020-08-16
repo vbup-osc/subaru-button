@@ -85,7 +85,7 @@
     text-align: center;
 }
 .btn-control-main:hover,.btn-control:focus{
-    background-color:#ff7b7be5;    
+    background-color:#f07e5bce;    
 
 }
 .btn-control{
@@ -108,7 +108,7 @@
     0%{right:15px;}
 }
 .btn-control:hover,.btn-control:focus{
-    background-color:#ff7b7be5
+    background-color:#f07e5bce
 }
 .btn-ctrldft{/*今日随机按钮*/
     background-image: linear-gradient(to bottom right,#70e4d0,#53d1e0) ;
@@ -129,7 +129,7 @@
     white-space: normal !important;
 }
 .btn-ctrldft:active,.btn-ctrldft:focus{/*宣传中心按钮选定*/
-    background-image: linear-gradient(to top left,rgb(255, 184, 184),rgb(255, 156, 156)) ;
+    background-image: linear-gradient(to bottom right,#45b4c0,#62c5b5) ;
     color: rgb(255, 228, 228);
 }
 .btn-ctrldft:hover{
@@ -155,7 +155,7 @@
     box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .btn-body-status{/*播放状态分类标题*/
-    background-color: #585858d8;
+    background-color: #70e4d0;
     border-radius: 150px;
     color: #fff;
     text-align: center;
@@ -217,7 +217,7 @@
 }
 .btn-new:active,.btn-new:focus{
     color: rgb(255, 204, 204);
-    background-image: linear-gradient(to top left,rgba(255, 120, 120, 0.836),rgba(255, 71, 71, 0.836));
+    background-image: linear-gradient(to bottom right,#db613b,#ee7f5d);
 }
 .btn-new:hover{
    box-shadow: 0px 0px 5px 5px rgba(252, 120, 120, 0.322);
@@ -322,11 +322,9 @@ class HomePage extends Vue {
         var title=this.$t("voice."+ tempList.voiceList[this._randomNum(0, tempList.voiceList.length - 1)].name);
         var res=document.getElementById('share').value;
         if(this.$i18n.locale === 'ja-JP'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「ミオボタン」のWebサイトにアクセスしてください~ https://t.co/TLdj8E9Rct");
-        }else if(this.$i18n.locale === 'en-US'){
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい Today，"+res+"'s random audio is %22"+title+"%22！ Visit Mio Button Website For More Audio! https://t.co/TLdj8E9Rct");
+            window.open("https://twitter.com/intent/tweet?text="+"%23スバルボタン %23プロテインザスバル 今日、「"+res+"」のランダムオーディオは「"+title+"」です！ より多くのオーディオを聞くには、「スバルボタン」のWebサイトにアクセスしてください~ https://oozorasubaru.com");
         }else {
-            window.open("https://twitter.com/intent/tweet?text="+"%23ミオボタン %23ミオかわいい 今天，“"+res+"”的随机音频是“"+title+"”！ 访问狼按钮网站聆听更多音频 https://t.co/TLdj8E9Rct");
+            window.open("https://twitter.com/intent/tweet?text="+"%23スバルボタン %23プロテインザスバル 今天，“"+res+"”的随机音频是“"+title+"”！ 访问昴按钮网站聆听更多音频 https://oozorasubaru.com");
         }
     }
     autoPlay(){
