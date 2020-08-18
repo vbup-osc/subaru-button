@@ -261,7 +261,7 @@ class HomePage extends Vue {
         this.youtube()
     }
     youtube() {
-        axios.get('https://api.holotools.app/v1/channels?limit=50?limit=50')
+        axios.get('https://api.holotools.app/v1/channels?limit=50')
         .then(response => {
         this.youtubeData = response.data
         })
