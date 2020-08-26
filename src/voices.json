@@ -1,23 +1,473 @@
 ﻿{
     "voices": [
-        {
-            "categoryName": "null",
-            "categoryDescription": {
-              "zh-CN": "▌null",
-              "ja-JP": "▌null",
-              "en-US": "▌null"
-            },
-            "voiceList": [
-              {
-                  "name": "null",
-                  "path": "null.mp3",
-                  "description": {
-                      "zh-CN": "null",
-                      "ja-JP": "null",
-                      "en-US": "null"
-                  }
-              }
-            ]
-        }
+      {
+        "categoryName": "universal",
+        "categoryDescription": {
+          "zh-CN": "通用",
+          "ja-JP": "ユニバーサル",
+          "en-US": ""
+        },
+        "voiceList": [
+          {
+            "name": "subaru-1",
+            "path": "subaru-1.mp3",
+            "description": {
+              "zh-CN": "484848484",
+              "ja-JP": "しゅばしゅばしゅばしゅば",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-2",
+            "path": "subaru-2.mp3",
+            "description": {
+              "zh-CN": "昴虐的时代已经结束了啦",
+              "ja-JP": "ス虐の時代は終わったんだよ",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-3",
+            "path": "subaru-3.mp3",
+            "description": {
+              "zh-CN": "hololive二期生大空昴是也！",
+              "ja-JP": "ホロライブ二期生大空スバル！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-4",
+            "path": "subaru-4.mp3",
+            "description": {
+              "zh-CN": "真是的",
+              "ja-JP": "も～～～～",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-5",
+            "path": "subaru-5.mp3",
+            "description": {
+              "zh-CN": "真是的~~~",
+              "ja-JP": "も～～～～～～",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-6",
+            "path": "subaru-6.mp3",
+            "description": {
+              "zh-CN": "好！",
+              "ja-JP": "よっしゃー！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-7",
+            "path": "subaru-7.mp3",
+            "description": {
+              "zh-CN": "不得了啊",
+              "ja-JP": "やばくね？",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-8",
+            "path": "subaru-8.mp3",
+            "description": {
+              "zh-CN": "为什么啦~",
+              "ja-JP": "なんでだよ～",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-9",
+            "path": "subaru-9.mp3",
+            "description": {
+              "zh-CN": "为什么要说我很吵呢",
+              "ja-JP": "なんで「うるさい」のコメントするの？",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-11",
+            "path": "subaru-11.mp3",
+            "description": {
+              "zh-CN": "这是啥啥啥",
+              "ja-JP": "何々なんだ",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-12",
+            "path": "subaru-12.mp3",
+            "description": {
+              "zh-CN": "什么都没有鸭~果然还是什么都没有鸭~",
+              "ja-JP": "なにもないや、やっぱりなにもないや～",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-13",
+            "path": "subaru-13.mp3",
+            "description": {
+              "zh-CN": "冲冲冲！",
+              "ja-JP": "いけいけいけいけ！！！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-14",
+            "path": "subaru-14.mp3",
+            "description": {
+              "zh-CN": "原来是这样啊",
+              "ja-JP": "そういうことか",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-15",
+            "path": "subaru-15.mp3",
+            "description": {
+              "zh-CN": "另一个我！",
+              "ja-JP": "もう一人の僕！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-16",
+            "path": "subaru-16.mp3",
+            "description": {
+              "zh-CN": "可爱吗？",
+              "ja-JP": "かわいい？",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-17",
+            "path": "subaru-17.mp3",
+            "description": {
+              "zh-CN": "真的烦死了，真是烦死人了",
+              "ja-JP": "ね、ガッチでうるさい！も、本当にうるさい！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-18",
+            "path": "subaru-18.mp3",
+            "description": {
+              "zh-CN": "呐呐呐，呐呐呐，拜托了，快说我可爱",
+              "ja-JP": "ねねね、ねねね、本当に頼む、「かわいい」っで言ってくれ",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-19",
+            "path": "subaru-19.mp3",
+            "description": {
+              "zh-CN": "呜呜呜！！！！",
+              "ja-JP": "ヴぅぅぅぅぅぅぅぅ",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-20",
+            "path": "subaru-20.mp3",
+            "description": {
+              "zh-CN": "呜呜！为什么啊！",
+              "ja-JP": "うぅぅぅ！なんでよ！？",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-21",
+            "path": "subaru-21.mp3",
+            "description": {
+              "zh-CN": "哦啊啊啊啊！！！！！",
+              "ja-JP": "おおおおおおお！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-22",
+            "path": "subaru-22.mp3",
+            "description": {
+              "zh-CN": "啊啊~大家真的好温柔啊，太温柔了，很感谢大家！",
+              "ja-JP": "ああ～優しいよみんな、優しいよ～ありがとう！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-23",
+            "path": "subaru-23.mp3",
+            "description": {
+              "zh-CN": "啊啊啊啊啊！",
+              "ja-JP": "あああああ！！！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-24",
+            "path": "subaru-24.mp3",
+            "description": {
+              "zh-CN": "啾~",
+              "ja-JP": "ちゅっ~",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-25",
+            "path": "subaru-25.mp3",
+            "description": {
+              "zh-CN": "喂！！！",
+              "ja-JP": "おいーーーー！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-26",
+            "path": "subaru-26.mp3",
+            "description": {
+              "zh-CN": "嘎嘎嘎嘎嘎嘎嘎嘎嘎~",
+              "ja-JP": "がうがうがうがうがうがうがうがうがう～",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-27",
+            "path": "subaru-27.mp3",
+            "description": {
+              "zh-CN": "好的",
+              "ja-JP": "はい",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-28",
+            "path": "subaru-28.mp3",
+            "description": {
+              "zh-CN": "喜欢！！！！",
+              "ja-JP": "好きーーーーー！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-29",
+            "path": "subaru-29.mp3",
+            "description": {
+              "zh-CN": "就是要Do it 啊，do it!",
+              "ja-JP": "Do it です、do it!",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-30",
+            "path": "subaru-30.mp3",
+            "description": {
+              "zh-CN": "我回来啦",
+              "ja-JP": "ただいまー",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-31",
+            "path": "subaru-31.mp3",
+            "description": {
+              "zh-CN": "抽卡！",
+              "ja-JP": "ドロー！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-32",
+            "path": "subaru-32.mp3",
+            "description": {
+              "zh-CN": "早上好鸭",
+              "ja-JP": "おはようございます",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-33",
+            "path": "subaru-33.mp3",
+            "description": {
+              "zh-CN": "早上好！",
+              "ja-JP": "おはよう！！！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-34",
+            "path": "subaru-34.mp3",
+            "description": {
+              "zh-CN": "是昴哟~（超可爱音声）",
+              "ja-JP": "スバルっスよ～～（可愛い声で）",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-35",
+            "path": "subaru-35.mp3",
+            "description": {
+              "zh-CN": "昴 大人！",
+              "ja-JP": "スバル　様！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-36",
+            "path": "subaru-36.mp3",
+            "description": {
+              "zh-CN": "昴今天什么坏事都没做啊",
+              "ja-JP": "スバル今日悪いことしてない！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-37",
+            "path": "subaru-37.mp3",
+            "description": {
+              "zh-CN": "昴好开心呀",
+              "ja-JP": "嬉しいよ、スバル",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-38",
+            "path": "subaru-38.mp3",
+            "description": {
+              "zh-CN": "最喜欢大家了！",
+              "ja-JP": "みんな、大好きだよ！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-39",
+            "path": "subaru-39.mp3",
+            "description": {
+              "zh-CN": "杂鱼杂鱼杂鱼杂鱼",
+              "ja-JP": "雑魚雑魚雑魚雑魚",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-40",
+            "path": "subaru-40.mp3",
+            "description": {
+              "zh-CN": "来打棒球吧！",
+              "ja-JP": "野球しようぜ",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-41",
+            "path": "subaru-41.mp3",
+            "description": {
+              "zh-CN": "欧拉！！！！！",
+              "ja-JP": "オラァァァァァ！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-42",
+            "path": "subaru-42.mp3",
+            "description": {
+              "zh-CN": "可恶！",
+              "ja-JP": "ちくしょう！！！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-43",
+            "path": "subaru-43.mp3",
+            "description": {
+              "zh-CN": "现代社会的黑暗，在这里爆发了啊",
+              "ja-JP": "現代社会の闇がですね、ここに噴出しているわけなんですね",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-44",
+            "path": "subaru-44.mp3",
+            "description": {
+              "zh-CN": "我现在就去找你咯~",
+              "ja-JP": "今から行くよ～",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-45",
+            "path": "subaru-45.mp3",
+            "description": {
+              "zh-CN": "直接攻击！",
+              "ja-JP": "ダイネクトアタック",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-46",
+            "path": "subaru-46.mp3",
+            "description": {
+              "zh-CN": "真的很抱歉",
+              "ja-JP": "本当にごめんなさい！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-47",
+            "path": "subaru-47.mp3",
+            "description": {
+              "zh-CN": "绫目酱还没来吗",
+              "ja-JP": "あやめちゃんまだ来ないかな？",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-48",
+            "path": "subaru-48.mp3",
+            "description": {
+              "zh-CN": "要上了哦！",
+              "ja-JP": "行くぞ！！！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-49",
+            "path": "subaru-49.mp3",
+            "description": {
+              "zh-CN": "要问为什么会有种迷惘的不安感的话，那个啊，是因为什么没去做啊",
+              "ja-JP": "漠然とね、した不安がある時っでなんで不安かあるかていうと、あのー、何もやってないからなんだよ。",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-50",
+            "path": "subaru-50.mp3",
+            "description": {
+              "zh-CN": "诶！？诶诶！？不要不要不要！",
+              "ja-JP": "え！？ええ！？やめてやめてやめて！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-51",
+            "path": "subaru-51.mp3",
+            "description": {
+              "zh-CN": "请停一下",
+              "ja-JP": "止まってください！",
+              "en-US": ""
+            }
+          },
+          {
+            "name": "subaru-52",
+            "path": "subaru-52.mp3",
+            "description": {
+              "zh-CN": "请多关照",
+              "ja-JP": "よろしくお願いします",
+              "en-US": ""
+            }
+          }
+        ]
+      }
     ]
-}
+  }
