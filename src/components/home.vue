@@ -35,7 +35,7 @@
                         <button class="btn btn-ctrldft" @click="randomshare">{{$t("action.share")}}</button>
                 </div>
                 <div class="cate-ctrldft">{{$t("action.adtitle")}}
-                    <button class="btn btn-ctrldft" onclick="window.open('https://www.bilibili.com/read/readlist/rl210208')">{{$t("action.weekly")}}</button>
+                    <button class="btn btn-ctrldft" onclick="window.open('https://space.bilibili.com/476869039/article')">{{$t("action.weekly")}}</button>
                     <button class="btn btn-ctrldft" onclick="window.open('https://vtbbtn.org')">{{$t("action.vtbbtn")}}</button>
                 </div>
             <div v-for="category in voices" v-bind:key="category.categoryName">
