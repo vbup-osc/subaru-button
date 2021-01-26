@@ -597,8 +597,8 @@
             "name": "subaru-67",
             "path": "subaru-67.mp3",
             "description": {
-              "zh-CN": "欧尼酱加油哦",
-              "ja-JP": "お兄ちゃん頑張って！",
+              "zh-CN": "姐姐加油哦",
+              "ja-JP": "お姉さん頑張って",
               "en-US": ""
             }
           },
@@ -667,7 +667,7 @@
           },
           {
             "name": "subaru-75",
-            "path": "subaru-75",
+            "path": "subaru-75.mp3",
             "description": {
               "zh-CN": "祝你生日快乐~（生日歌）",
               "ja-JP": "ハッピーバースデイツーユー（誕生日の歌）",
