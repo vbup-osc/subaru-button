@@ -682,6 +682,15 @@
               "ja-JP": "何で人はそんな傷つきあってしまうの（悲鳴）",
               "en-US": ""
             }
+          },
+          {
+            "name": "subaru-77",
+            "path": "subaru-77.mp3",
+            "description": {
+              "zh-CN": "",
+              "ja-JP": "ゴーゴー！スバル！ ゴー！スバル！",
+              "en-US": "Go! Go! Subaru! Go! Subaru!"
+            }
           }
         ]
       }
