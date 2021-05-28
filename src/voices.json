@@ -691,6 +691,15 @@
               "ja-JP": "ゴーゴー！スバル！ ゴー！スバル！",
               "en-US": "Go! Go! Subaru! Go! Subaru!"
             }
+          },
+          {
+            "name": "subaru-78",
+            "path": "subaru-78.mp3",
+            "description": {
+              "zh-CN": "",
+              "ja-JP": "ピーザピザピザピーザピザー",
+              "en-US": "Pizza! Pizza!"
+            }
           }
         ]
       }
