@@ -693,6 +693,15 @@
             }
           },
           {
+            "name": "subaru-78",
+            "path": "subaru-78.mp3",
+            "description": {
+              "zh-CN": "",
+              "ja-JP": "ピーザピザピザピーザピザー",
+              "en-US": "Pizza! Pizza!"
+            }
+          },
+          {
             "name": "subaru-79",
             "path": "subaru-79.mp3",
             "description": {
