@@ -700,6 +700,15 @@
               "ja-JP": "ピーザピザピザピーザピザー",
               "en-US": "Pizza! Pizza!"
             }
+          },
+          {
+            "name": "subaru-79",
+            "path": "subaru-79.mp3",
+            "description": {
+              "zh-CN": "有大的摩托车驾照可以骑什么？ 公交车？",
+              "ja-JP": "大型二輪って何に乗れるの？バス？",
+              "en-US": "What can I ride with a large motorcycle license? Is it a bus?"
+            }
           }
         ]
       }
