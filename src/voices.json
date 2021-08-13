@@ -691,6 +691,24 @@
               "ja-JP": "ゴーゴー！スバル！ ゴー！スバル！",
               "en-US": "Go! Go! Subaru! Go! Subaru!"
             }
+          },
+          {
+            "name": "subaru-78",
+            "path": "subaru-78.mp3",
+            "description": {
+              "zh-CN": "它是不同的!",
+              "ja-JP": "それは違うよ!",
+              "en-US": "That's wrong!"
+            }
+          },
+          {
+            "name": "subaru-79",
+            "path": "subaru-79.mp3",
+            "description": {
+              "zh-CN": "異議!",
+              "ja-JP": "異議あり!",
+              "en-US": "Objection!"
+            }
           }
         ]
       }
